@@ -1,0 +1,65 @@
+*{
+    background-color: rgb(179, 175, 246);
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+#addField {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    max-width: 500px;
+    padding: 10px 20px;
+
+}
+
+#addButton {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+
+}
+
+#addButton:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 227);
+}
+
+#tasks {
+    background-color: antiquewhite;
+}
+
+.taskItem {
+    background-color: rgb(255, 255, 255);
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+#tasksDisplay{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#clearButton {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+
+}
+#clearButton:hover{
+    cursor: pointer;
+    background-color: rgb(224, 224, 227);
+    
+}
